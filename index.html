@@ -1,0 +1,127 @@
+<!-- This is the doctype declaration for HTML5 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- This is the search form -->
+    <!-- The search form has a GET method and submits to the current page -->
+    <!-- The form has one input field and a submit button -->   
+    <header class="header">
+        <a class="logo">My Portfolio</a>
+        <nav class="navbar">
+            <a href= "#About me">ABOUT ME</a>
+            <a href= "#Skills">SKILLS</a>
+            <a href= "#Education">EDUCATION</a>
+            <a href= "#Work Experience">WORK EXPERIENCE</a>
+            <a href= "#Contact">CONTACT INFORMATION</a>
+        </nav>
+    </header> 
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="search-box">  
+        <form class="Search-form" method="GET" action="">
+            <input type="text" id="site-search" placeholder="Search the site..." name="q"  />
+            <button class = "submit"type="submit">Search</button>
+        </form>
+    </div>
+
+    <img class="title-image" alt= "Picture of me" src="me.jpg" width="290" height="250">
+    <br>
+    <br>
+    <br>
+    <br>
+
+   <section>
+    <h2 id="About me">About me</h2>
+        <p>Hi, my name is Jean-Venant Kapia Tshimombo, also known as John and I hail from the vibrant Democratic Republic of Congo.
+           I have a passion for coding, drawing, painting, and playing football. These activities not only fuel my creativity
+           but also keep me constantly engaged in learning and personal growth. I am always on the lookout for
+           new challenges and opportunities to expand my horizons. My ultimate dream is to open a coding school,
+           where I can empower and inspire others with the invaluable skill of coding.
+           Through this endeavor, I aim to make a significant impact in my community and beyond,
+           fostering a generation of skilled and innovative individuals.</p>    
+   <br>
+   <br>
+    <h2 id="Skills">Skills</h2>
+        <p><b>Technical Skills:</b></p> 
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+            </ul>     
+        <p><b>Creative Skills:</b></p>
+            <ul>
+                <li>Drawing</li>
+                <li>Painting</li>
+                <li>Football</li>
+            </ul>
+        <p><b>Soft Skills:</b></p>
+            <ul>
+                <li>Communication</li>
+                <li>Leadership</li>
+                <li>Problem-Solving</li>
+                <li>Teamwork</li>
+                <li>Adaptability</li>
+            </ul>        
+   <br>
+   <br>
+    <h2 id="Education">Education</h2>
+        <p><b>High School</b></p>  
+            <ul>
+                <li>School: The Cape Academy of Maths, Science and Technology</li>
+                <li>Subjects: Mathematics, Physics, Accounting, Information Technology</li>
+                <li>Highest grade passed: Grade12, Bachelors pass</li>
+            </ul>
+   <br>
+   <br>
+    <h2 id = "Work Experience">Work Experience</h2>
+        <p>No work Experience</p>     
+   <br>
+   <br>
+    
+    <h2 id="Contact">Contact information</h2>
+        <p><strong>Jean-Venant Kapia Tshimombo</strong></p>
+        <p>Cape Town, South Africa</p>
+        <p><ion-icon name="call"></ion-icon>: <a href="tel:+272641028">+27 73 264 1048</a></p>
+        <p><ion-icon name="mail"></ion-icon>: <a href="mailto:johnkapia2023@gmail.com">johnkapia2023@gmail.com</a></p>
+        <p><ion-icon name="logo-linkedin"></ion-icon>: <a href="https://linkedin.com/in/John Tshibombu" target="_blank">linkedin.com/in/John Tshibombu</a></p>
+        <!-- Contact information section -->
+        <!-- Displays the name, location, phone number, email address, and LinkedIn profile link -->
+        <!-- The icons are obtained from the Ionicons library and are displayed using the ion-icon component -->
+       
+   </section>
+   
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+   
+   <!-- Scripts for icons and contact form -->
+   <!-- The script tags include the Ionicons library for icons and the contact form -->
+   <!-- The Ionicons library is included using the module and nomodule attributes for compatibility with older browsers -->
+   <!-- The contact form is used for users to send a message to the website owner -->
+   <div class="contact-form">
+
+    <form method="POST" action=" ">
+        <h2>Contact Me</h2>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required=""><br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required=""><br>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required=""></textarea><br>
+        <br>
+        <button class="message" type="submit">Send Message</button>
+    </form>
+    </div>
+
+</body>
+</html>
